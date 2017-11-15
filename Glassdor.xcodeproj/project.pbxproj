@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB5536851FBCB87400CC196D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536841FBCB87400CC196D /* AppDelegate.swift */; };
+		BB5536871FBCB87400CC196D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536861FBCB87400CC196D /* ViewController.swift */; };
+		BB55368A1FBCB87400CC196D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5536881FBCB87400CC196D /* Main.storyboard */; };
+		BB55368D1FBCB87400CC196D /* Glassdor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB55368B1FBCB87400CC196D /* Glassdor.xcdatamodeld */; };
+		BB55368F1FBCB87400CC196D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB55368E1FBCB87400CC196D /* Assets.xcassets */; };
+		BB5536921FBCB87400CC196D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5536901FBCB87400CC196D /* LaunchScreen.storyboard */; };
+		BB55369D1FBCB87400CC196D /* GlassdorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB55369C1FBCB87400CC196D /* GlassdorTests.swift */; };
+		BB5536A81FBCB87400CC196D /* GlassdorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536A71FBCB87400CC196D /* GlassdorUITests.swift */; };
+		BB5536B61FBCCC0D00CC196D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536B51FBCCC0D00CC196D /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB5536991FBCB87400CC196D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5536791FBCB87400CC196D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB5536801FBCB87400CC196D;
+			remoteInfo = Glassdor;
+		};
+		BB5536A41FBCB87400CC196D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5536791FBCB87400CC196D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB5536801FBCB87400CC196D;
+			remoteInfo = Glassdor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB5536811FBCB87400CC196D /* Glassdor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glassdor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5536841FBCB87400CC196D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB5536861FBCB87400CC196D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB5536891FBCB87400CC196D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB55368C1FBCB87400CC196D /* Glassdor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Glassdor.xcdatamodel; sourceTree = "<group>"; };
+		BB55368E1FBCB87400CC196D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB5536911FBCB87400CC196D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB5536931FBCB87400CC196D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5536981FBCB87400CC196D /* GlassdorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassdorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB55369C1FBCB87400CC196D /* GlassdorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassdorTests.swift; sourceTree = "<group>"; };
+		BB55369E1FBCB87400CC196D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5536A31FBCB87400CC196D /* GlassdorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassdorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5536A71FBCB87400CC196D /* GlassdorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassdorUITests.swift; sourceTree = "<group>"; };
+		BB5536A91FBCB87400CC196D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5536B51FBCCC0D00CC196D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB55367E1FBCB87400CC196D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5536951FBCB87400CC196D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5536A01FBCB87400CC196D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB5536781FBCB87400CC196D = {
+			isa = PBXGroup;
+			children = (
+				BB5536831FBCB87400CC196D /* Glassdor */,
+				BB55369B1FBCB87400CC196D /* GlassdorTests */,
+				BB5536A61FBCB87400CC196D /* GlassdorUITests */,
+				BB5536821FBCB87400CC196D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB5536821FBCB87400CC196D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB5536811FBCB87400CC196D /* Glassdor.app */,
+				BB5536981FBCB87400CC196D /* GlassdorTests.xctest */,
+				BB5536A31FBCB87400CC196D /* GlassdorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5536831FBCB87400CC196D /* Glassdor */ = {
+			isa = PBXGroup;
+			children = (
+				BB5536BA1FBCD0B700CC196D /* Helpers */,
+				BB5536B71FBCD08500CC196D /* Models */,
+				BB5536B81FBCD09400CC196D /* Views */,
+				BB5536B91FBCD09C00CC196D /* Controllers */,
+				BB5536841FBCB87400CC196D /* AppDelegate.swift */,
+				BB55368E1FBCB87400CC196D /* Assets.xcassets */,
+				BB5536901FBCB87400CC196D /* LaunchScreen.storyboard */,
+				BB5536931FBCB87400CC196D /* Info.plist */,
+				BB55368B1FBCB87400CC196D /* Glassdor.xcdatamodeld */,
+			);
+			path = Glassdor;
+			sourceTree = "<group>";
+		};
+		BB55369B1FBCB87400CC196D /* GlassdorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB55369C1FBCB87400CC196D /* GlassdorTests.swift */,
+				BB55369E1FBCB87400CC196D /* Info.plist */,
+			);
+			path = GlassdorTests;
+			sourceTree = "<group>";
+		};
+		BB5536A61FBCB87400CC196D /* GlassdorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5536A71FBCB87400CC196D /* GlassdorUITests.swift */,
+				BB5536A91FBCB87400CC196D /* Info.plist */,
+			);
+			path = GlassdorUITests;
+			sourceTree = "<group>";
+		};
+		BB5536B71FBCD08500CC196D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB5536B81FBCD09400CC196D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB5536881FBCB87400CC196D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB5536B91FBCD09C00CC196D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB5536861FBCB87400CC196D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BB5536BA1FBCD0B700CC196D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB5536B51FBCCC0D00CC196D /* Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB5536801FBCB87400CC196D /* Glassdor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5536AC1FBCB87400CC196D /* Build configuration list for PBXNativeTarget "Glassdor" */;
+			buildPhases = (
+				BB55367D1FBCB87400CC196D /* Sources */,
+				BB55367E1FBCB87400CC196D /* Frameworks */,
+				BB55367F1FBCB87400CC196D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glassdor;
+			productName = Glassdor;
+			productReference = BB5536811FBCB87400CC196D /* Glassdor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB5536971FBCB87400CC196D /* GlassdorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5536AF1FBCB87400CC196D /* Build configuration list for PBXNativeTarget "GlassdorTests" */;
+			buildPhases = (
+				BB5536941FBCB87400CC196D /* Sources */,
+				BB5536951FBCB87400CC196D /* Frameworks */,
+				BB5536961FBCB87400CC196D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB55369A1FBCB87400CC196D /* PBXTargetDependency */,
+			);
+			name = GlassdorTests;
+			productName = GlassdorTests;
+			productReference = BB5536981FBCB87400CC196D /* GlassdorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB5536A21FBCB87400CC196D /* GlassdorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5536B21FBCB87400CC196D /* Build configuration list for PBXNativeTarget "GlassdorUITests" */;
+			buildPhases = (
+				BB55369F1FBCB87400CC196D /* Sources */,
+				BB5536A01FBCB87400CC196D /* Frameworks */,
+				BB5536A11FBCB87400CC196D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB5536A51FBCB87400CC196D /* PBXTargetDependency */,
+			);
+			name = GlassdorUITests;
+			productName = GlassdorUITests;
+			productReference = BB5536A31FBCB87400CC196D /* GlassdorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB5536791FBCB87400CC196D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Mobile Consulting Solutions";
+				TargetAttributes = {
+					BB5536801FBCB87400CC196D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BB5536971FBCB87400CC196D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB5536801FBCB87400CC196D;
+					};
+					BB5536A21FBCB87400CC196D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BB5536801FBCB87400CC196D;
+					};
+				};
+			};
+			buildConfigurationList = BB55367C1FBCB87400CC196D /* Build configuration list for PBXProject "Glassdor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB5536781FBCB87400CC196D;
+			productRefGroup = BB5536821FBCB87400CC196D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB5536801FBCB87400CC196D /* Glassdor */,
+				BB5536971FBCB87400CC196D /* GlassdorTests */,
+				BB5536A21FBCB87400CC196D /* GlassdorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB55367F1FBCB87400CC196D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5536921FBCB87400CC196D /* LaunchScreen.storyboard in Resources */,
+				BB55368F1FBCB87400CC196D /* Assets.xcassets in Resources */,
+				BB55368A1FBCB87400CC196D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5536961FBCB87400CC196D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5536A11FBCB87400CC196D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB55367D1FBCB87400CC196D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5536871FBCB87400CC196D /* ViewController.swift in Sources */,
+				BB55368D1FBCB87400CC196D /* Glassdor.xcdatamodeld in Sources */,
+				BB5536851FBCB87400CC196D /* AppDelegate.swift in Sources */,
+				BB5536B61FBCCC0D00CC196D /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5536941FBCB87400CC196D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB55369D1FBCB87400CC196D /* GlassdorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB55369F1FBCB87400CC196D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5536A81FBCB87400CC196D /* GlassdorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB55369A1FBCB87400CC196D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB5536801FBCB87400CC196D /* Glassdor */;
+			targetProxy = BB5536991FBCB87400CC196D /* PBXContainerItemProxy */;
+		};
+		BB5536A51FBCB87400CC196D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB5536801FBCB87400CC196D /* Glassdor */;
+			targetProxy = BB5536A41FBCB87400CC196D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB5536881FBCB87400CC196D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5536891FBCB87400CC196D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB5536901FBCB87400CC196D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5536911FBCB87400CC196D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB5536AA1FBCB87400CC196D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB5536AB1FBCB87400CC196D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB5536AD1FBCB87400CC196D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76456274W3;
+				INFOPLIST_FILE = Glassdor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MCS.Glassdor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB5536AE1FBCB87400CC196D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76456274W3;
+				INFOPLIST_FILE = Glassdor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MCS.Glassdor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB5536B01FBCB87400CC196D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76456274W3;
+				INFOPLIST_FILE = GlassdorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MCS.GlassdorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glassdor.app/Glassdor";
+			};
+			name = Debug;
+		};
+		BB5536B11FBCB87400CC196D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76456274W3;
+				INFOPLIST_FILE = GlassdorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MCS.GlassdorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glassdor.app/Glassdor";
+			};
+			name = Release;
+		};
+		BB5536B31FBCB87400CC196D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76456274W3;
+				INFOPLIST_FILE = GlassdorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MCS.GlassdorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glassdor;
+			};
+			name = Debug;
+		};
+		BB5536B41FBCB87400CC196D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76456274W3;
+				INFOPLIST_FILE = GlassdorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MCS.GlassdorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Glassdor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB55367C1FBCB87400CC196D /* Build configuration list for PBXProject "Glassdor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5536AA1FBCB87400CC196D /* Debug */,
+				BB5536AB1FBCB87400CC196D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5536AC1FBCB87400CC196D /* Build configuration list for PBXNativeTarget "Glassdor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5536AD1FBCB87400CC196D /* Debug */,
+				BB5536AE1FBCB87400CC196D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5536AF1FBCB87400CC196D /* Build configuration list for PBXNativeTarget "GlassdorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5536B01FBCB87400CC196D /* Debug */,
+				BB5536B11FBCB87400CC196D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5536B21FBCB87400CC196D /* Build configuration list for PBXNativeTarget "GlassdorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5536B31FBCB87400CC196D /* Debug */,
+				BB5536B41FBCB87400CC196D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB55368B1FBCB87400CC196D /* Glassdor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB55368C1FBCB87400CC196D /* Glassdor.xcdatamodel */,
+			);
+			currentVersion = BB55368C1FBCB87400CC196D /* Glassdor.xcdatamodel */;
+			path = Glassdor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB5536791FBCB87400CC196D /* Project object */;
+}
