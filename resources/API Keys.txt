@@ -1,0 +1,8 @@
+GLASSDOOR
+
+API Key 
+
+Partner ID:	226784
+Key:	egJHs4O7iCI
+
+Documentation: https://www.glassdoor.com/developer/index.htm
