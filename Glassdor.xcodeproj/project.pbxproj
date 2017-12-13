@@ -16,6 +16,7 @@
 		BB55369D1FBCB87400CC196D /* GlassdorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB55369C1FBCB87400CC196D /* GlassdorTests.swift */; };
 		BB5536A81FBCB87400CC196D /* GlassdorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536A71FBCB87400CC196D /* GlassdorUITests.swift */; };
 		BB5536B61FBCCC0D00CC196D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536B51FBCCC0D00CC196D /* Helper.swift */; };
+		BB6A385C1FE1BFD900E84C26 /* EmployersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6A385B1FE1BFD900E84C26 /* EmployersModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BB5536A71FBCB87400CC196D /* GlassdorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassdorUITests.swift; sourceTree = "<group>"; };
 		BB5536A91FBCB87400CC196D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB5536B51FBCCC0D00CC196D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		BB6A385B1FE1BFD900E84C26 /* EmployersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmployersModel.swift; path = ../../../EmployersModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		BB5536B71FBCD08500CC196D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BB6A385B1FE1BFD900E84C26 /* EmployersModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			files = (
 				BB5536871FBCB87400CC196D /* ViewController.swift in Sources */,
 				BB55368D1FBCB87400CC196D /* Glassdor.xcdatamodeld in Sources */,
+				BB6A385C1FE1BFD900E84C26 /* EmployersModel.swift in Sources */,
 				BB5536851FBCB87400CC196D /* AppDelegate.swift in Sources */,
 				BB5536B61FBCCC0D00CC196D /* Helper.swift in Sources */,
 			);
