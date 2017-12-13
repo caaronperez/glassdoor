@@ -9,5 +9,6 @@
 import Foundation
 
 class EmployerModel {
+    // MARK: Properties
     
 }
