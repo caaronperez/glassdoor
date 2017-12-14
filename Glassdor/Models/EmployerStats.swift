@@ -8,25 +8,14 @@
 
 import UIKit
 
-class EmployerStats: NSObject {
-
-  var id: Int
+struct EmployerStats {
+  var id: String
   var name: String
-  var numJobs: Int
+  var numJobs: String
   var squareLogo: String
   var rating: String
-  var numberOfReviews: Int
+  var numberOfReviews: String
   var starImageSrc: String
   var reviewsUrl: String
-  
-  init(id: Int, name: String, numJobs: Int, squareLogo: String, rating: String, numberOfReviews: Int, starImageSrc: String, reviewsUrl: String){
-    self.id = id
-    self.name = name
-    self.numJobs = numJobs
-    self.squareLogo = squareLogo
-    self.rating = rating
-    self.numberOfReviews = numberOfReviews
-    self.starImageSrc = starImageSrc
-    self.reviewsUrl = reviewsUrl
-  }
 }
+

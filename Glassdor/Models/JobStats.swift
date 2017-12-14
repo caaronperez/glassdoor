@@ -8,14 +8,8 @@
 
 import UIKit
 
-class JobStats: NSObject {
-  var id: Int
+struct JobStats {
+  var id: String
   var jobTitle: String
-  var numJobs: Int
-  
-  init(id: Int, jobTitle: String, numJobs: Int){
-    self.id = id
-    self.jobTitle = jobTitle
-    self.numJobs = numJobs
-  }
+  var numJobs: String
 }
