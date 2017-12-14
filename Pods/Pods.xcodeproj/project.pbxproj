@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E3BFC96C6A7CCADAF3DA6C3C80F35EC /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B85C6C39986DB389CF827D43FC38656 /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1648AB9E52071D70CD79280AB21C94D1 /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEF9DD7DCA79866D39510B4B3836A16 /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0130E51AF422F68818416677EE6595 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0411B763BD30ABF699F609443944B8 /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1C811AECF5860AA1EF0C5A6650A13E3D /* Pods-GlassdorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841B5873825DEC9BB1DFED5CF3DF30F /* Pods-GlassdorTests-dummy.m */; };
+		246DD685C951FFF04D55232211F076CD /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CFBFDCDFE941ECF81DB994EAC61F78 /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2680FB2A9AAFE79796C23A20390CEF45 /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B3B5AEF57DDB103BABC898AACB0F19 /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29C34B43AFA7A1D88AB188801C76E08C /* ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7BB4584A293865661605294BFF38DB /* ActionSheetPicker-3.0-dummy.m */; };
+		3C8D2470783809376BA929A9603C21D9 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 086C9BB20FDDB53D3906CA1583413803 /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		430E0A46B42F47FF79AE16168D1613E9 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A139D8751FAFFA73664DC890D44C508 /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		524DD49730D7A542AB8D976396359AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6C16BD3BCB1B65194E7CEA5CF15AD446 /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E13EF4565283497DA8231BFE0A63E06E /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAE8136E390BD842ACE6EC5F01C8EF1 /* Pods-GlassdorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5199C61B83CEA5E531DEE553AD3C1706 /* Pods-GlassdorUITests-dummy.m */; };
+		75CADFBDB7E1E573C0D2D87643F46D53 /* Pods-GlassdorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C7516E4FDC295746915A18F0CD90BA5 /* Pods-GlassdorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82DB07E1965CC9FFA0340EDA2C5A05A0 /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E33A609A31EC0E8493E555C8759C000B /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83678861FC71A2BE986560E60D265F1C /* ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0E672E563F5E19BD623A008CB038DD /* ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C5AD10BAAC97C86DCEE36CD200E3F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		90E3389D33DD00DE304548BE9C52C69F /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = CCFF8962890382B357B0CEE2401DADF9 /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2B8491E6B1B8EA1C9ACD37341C726B /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0937C8B68D89F7C7732C67E7BF61D850 /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B867960879FDDD089A9E41F027E13B9 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F924914A7C17D78AE7B652B981724E /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9BC276383ED044BB0926AFDFD73F928E /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC0945BA2993786D8C8CB31A8B2B05C /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F74AC56E76F01E7A69BB8D3A7E3DB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		AE84E0341C26A9B5C8E1501C8E8AAC8F /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C568B07D7817264B94197F093BD292F9 /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9549E0502F90B7756F20937503B7411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		BDBFA441010D34FB51DC32F28314AD8D /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A7FB5AF07C70BF12318BE490621954 /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3F9F197516B6BF2BD02E4CE802DCBBA /* Pods-Glassdor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 994BBC1337606E6BCE8DCC4A6095CFFA /* Pods-Glassdor-dummy.m */; };
+		C6CB72E223B27A0C2B06910EC0FADF67 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5087EB01E4D0F4BEE53232C3CB94B5B2 /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CA068FC25E80824549668A53EC9379EC /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDA8D17CF2D7407FC0354A732CB4258 /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC838339C0E4BB6BB1B5E03D21CB3893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D556B63DF11B96568C36FF4D783E4734 /* Pods-Glassdor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C2F386EA4E733EB44B9D2E8E233CE4 /* Pods-Glassdor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA732A6C79E7252A25F23A1497ACD0FD /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E668A06BB8C37BF2359F52F5E1C47FA /* ActionSheetMultipleStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E049CE807DA7A012BA222DE64920C3D1 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E60CFA1A2D37281B9FB7AC8BF76C4B6 /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E61ED7FAF083B75902728EB20AC4BD92 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A0573E8A3A98E7C64FA4A498911E45 /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F0D48A67CA370440549EE60C8F3C76A0 /* Pods-GlassdorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA70F606BF7B61479357A457AF061790 /* Pods-GlassdorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FC779AB546DCA92F65F44BBC99DDFCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965699190112DDBD9B7864D091660DBC;
+			remoteInfo = "ActionSheetPicker-3.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04622083107A9196CBC30E0006A4DB1E /* Pods-GlassdorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlassdorTests.release.xcconfig"; sourceTree = "<group>"; };
+		086C9BB20FDDB53D3906CA1583413803 /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		0937C8B68D89F7C7732C67E7BF61D850 /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		09FF44CC62F5147EEB2747601F366CD0 /* Pods-Glassdor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Glassdor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A139D8751FAFFA73664DC890D44C508 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		1BD3631238FF559FC58A776645010DAF /* Pods_Glassdor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Glassdor.framework; path = "Pods-Glassdor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7516E4FDC295746915A18F0CD90BA5 /* Pods-GlassdorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlassdorUITests-umbrella.h"; sourceTree = "<group>"; };
+		1E668A06BB8C37BF2359F52F5E1C47FA /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		235A5A33BFF159DED3889BD6E972DD9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29A7FB5AF07C70BF12318BE490621954 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		2EE73C61E813A5ECA40D66DBC504F948 /* Pods-GlassdorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlassdorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3024EA907AD0D2503F0D617FB379108F /* Pods-GlassdorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GlassdorUITests.modulemap"; sourceTree = "<group>"; };
+		3A4C1EF40CC3CD86CD762BF96514F9F3 /* ActionSheetPicker-3.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.xcconfig"; sourceTree = "<group>"; };
+		3D4866B698344C50AB984BAFE1FB5CA1 /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionSheetPicker_3_0.framework; path = "ActionSheetPicker-3.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D568BF2F9C8FCB445134E9E582C3FED /* Pods-GlassdorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlassdorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F09150D95319CAD2C3357451FD6E3CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0E672E563F5E19BD623A008CB038DD /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
+		4444C78D6B39A89F38F785104058FF93 /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
+		47F487F16F3C1C0AA2C88E0756361369 /* Pods-Glassdor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Glassdor-resources.sh"; sourceTree = "<group>"; };
+		4F26159BE437AD7D0C56BD9F7E699C89 /* Pods_GlassdorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GlassdorUITests.framework; path = "Pods-GlassdorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5087EB01E4D0F4BEE53232C3CB94B5B2 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		5199C61B83CEA5E531DEE553AD3C1706 /* Pods-GlassdorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlassdorUITests-dummy.m"; sourceTree = "<group>"; };
+		5496BF72A566171368A245DC5BE0FBB0 /* Pods-GlassdorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlassdorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		593204011BA201B60BC063BFD2A1E76A /* ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		5AC0945BA2993786D8C8CB31A8B2B05C /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		5EA05A66406417B53DB5CA3962AEE068 /* Pods-GlassdorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlassdorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64A39A614B6B2AF7BE12688494CD868C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B85C6C39986DB389CF827D43FC38656 /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		7841B5873825DEC9BB1DFED5CF3DF30F /* Pods-GlassdorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlassdorTests-dummy.m"; sourceTree = "<group>"; };
+		79FFBF5E12EDCDBB57A96E70D81A61D5 /* Pods-Glassdor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Glassdor-frameworks.sh"; sourceTree = "<group>"; };
+		7E60CFA1A2D37281B9FB7AC8BF76C4B6 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		8B1D2429C0531258F8D10567EEE7F339 /* Pods-Glassdor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Glassdor.debug.xcconfig"; sourceTree = "<group>"; };
+		90C2F386EA4E733EB44B9D2E8E233CE4 /* Pods-Glassdor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Glassdor-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98A02640D19056388E9090C60ADC6550 /* Pods-Glassdor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Glassdor-acknowledgements.plist"; sourceTree = "<group>"; };
+		994BBC1337606E6BCE8DCC4A6095CFFA /* Pods-Glassdor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Glassdor-dummy.m"; sourceTree = "<group>"; };
+		A4F7013B1A25D1C991D5C50177591199 /* Pods-GlassdorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlassdorUITests-resources.sh"; sourceTree = "<group>"; };
+		A5CFBFDCDFE941ECF81DB994EAC61F78 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		AEA9E48BBB4FC8AAD154158C7D5E3F3A /* Pods-GlassdorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlassdorTests-resources.sh"; sourceTree = "<group>"; };
+		B20DA52828C8F63DB82CD7ACA9781B05 /* Pods-Glassdor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Glassdor.release.xcconfig"; sourceTree = "<group>"; };
+		B5A0573E8A3A98E7C64FA4A498911E45 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BEACFC4B52A2DDD48E14B83C03CC7AEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B3B5AEF57DDB103BABC898AACB0F19 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		C568B07D7817264B94197F093BD292F9 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		CCDA8D17CF2D7407FC0354A732CB4258 /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		CCFF8962890382B357B0CEE2401DADF9 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		CE7BB4584A293865661605294BFF38DB /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		D34B85057271A8653A44BC66BCC8CAEB /* Pods-GlassdorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlassdorTests-frameworks.sh"; sourceTree = "<group>"; };
+		D7C966BCD9AE0D9152AB1139AC3E2A1B /* Pods-GlassdorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlassdorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA69659C43510D5DF46CA04ADD740F20 /* Pods-GlassdorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GlassdorTests.modulemap"; sourceTree = "<group>"; };
+		DC2D03B86FFDEE1900FEE1FCD6373584 /* Pods_GlassdorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GlassdorTests.framework; path = "Pods-GlassdorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3A518672323995A8A80E0D0F1B5E22 /* Pods-GlassdorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlassdorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E13EF4565283497DA8231BFE0A63E06E /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		E33A609A31EC0E8493E555C8759C000B /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		E57389CFAC0402DFE15CA2E92A922FA3 /* Pods-GlassdorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlassdorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EA70F606BF7B61479357A457AF061790 /* Pods-GlassdorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlassdorTests-umbrella.h"; sourceTree = "<group>"; };
+		EB5D208C083557A2781FB064FF234C72 /* Pods-GlassdorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlassdorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8F924914A7C17D78AE7B652B981724E /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		FBBC53F87AD9C6005B8DE224B29721DA /* Pods-Glassdor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Glassdor.modulemap"; sourceTree = "<group>"; };
+		FD0411B763BD30ABF699F609443944B8 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		FEEF9DD7DCA79866D39510B4B3836A16 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24E2A94873BA22EB445F1AA744399E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C5AD10BAAC97C86DCEE36CD200E3F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8097A629EB94558C55D275789BC1A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524DD49730D7A542AB8D976396359AD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66076240C2ED6C56B870D99D6432B3F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC838339C0E4BB6BB1B5E03D21CB3893 /* Foundation.framework in Frameworks */,
+				A2F74AC56E76F01E7A69BB8D3A7E3DB8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B030F768AF7123D3791FF0C10B75DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9549E0502F90B7756F20937503B7411 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C66CEC1EDE22E3327E1D6903C99AC9 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				C0B3B5AEF57DDB103BABC898AACB0F19 /* AbstractActionSheetPicker.h */,
+				F8F924914A7C17D78AE7B652B981724E /* AbstractActionSheetPicker.m */,
+				CCFF8962890382B357B0CEE2401DADF9 /* ActionSheetCustomPicker.h */,
+				B5A0573E8A3A98E7C64FA4A498911E45 /* ActionSheetCustomPicker.m */,
+				C568B07D7817264B94197F093BD292F9 /* ActionSheetCustomPickerDelegate.h */,
+				5AC0945BA2993786D8C8CB31A8B2B05C /* ActionSheetDatePicker.h */,
+				FD0411B763BD30ABF699F609443944B8 /* ActionSheetDatePicker.m */,
+				FEEF9DD7DCA79866D39510B4B3836A16 /* ActionSheetDistancePicker.h */,
+				A5CFBFDCDFE941ECF81DB994EAC61F78 /* ActionSheetDistancePicker.m */,
+				E33A609A31EC0E8493E555C8759C000B /* ActionSheetLocalePicker.h */,
+				1A139D8751FAFFA73664DC890D44C508 /* ActionSheetLocalePicker.m */,
+				E13EF4565283497DA8231BFE0A63E06E /* ActionSheetMultipleStringPicker.h */,
+				1E668A06BB8C37BF2359F52F5E1C47FA /* ActionSheetMultipleStringPicker.m */,
+				0937C8B68D89F7C7732C67E7BF61D850 /* ActionSheetPicker.h */,
+				29A7FB5AF07C70BF12318BE490621954 /* ActionSheetStringPicker.h */,
+				5087EB01E4D0F4BEE53232C3CB94B5B2 /* ActionSheetStringPicker.m */,
+				CCDA8D17CF2D7407FC0354A732CB4258 /* DistancePickerView.h */,
+				086C9BB20FDDB53D3906CA1583413803 /* DistancePickerView.m */,
+				6B85C6C39986DB389CF827D43FC38656 /* SWActionSheet.h */,
+				7E60CFA1A2D37281B9FB7AC8BF76C4B6 /* SWActionSheet.m */,
+				97E765E8CF6B3409EA5B16CB3D2C584A /* Support Files */,
+			);
+			name = "ActionSheetPicker-3.0";
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		1D169C6CB4A1A4C38637508F9513B32B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A81CDF3A7F041C82AE3DB33C2D408E97 /* Pods-Glassdor */,
+				BDD14DDCAB646BE861DADCA3EBFD1CA1 /* Pods-GlassdorTests */,
+				65EC16F68E7DCB5690DA5BBF962D2A22 /* Pods-GlassdorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		65EC16F68E7DCB5690DA5BBF962D2A22 /* Pods-GlassdorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F09150D95319CAD2C3357451FD6E3CF /* Info.plist */,
+				3024EA907AD0D2503F0D617FB379108F /* Pods-GlassdorUITests.modulemap */,
+				5496BF72A566171368A245DC5BE0FBB0 /* Pods-GlassdorUITests-acknowledgements.markdown */,
+				3D568BF2F9C8FCB445134E9E582C3FED /* Pods-GlassdorUITests-acknowledgements.plist */,
+				5199C61B83CEA5E531DEE553AD3C1706 /* Pods-GlassdorUITests-dummy.m */,
+				E57389CFAC0402DFE15CA2E92A922FA3 /* Pods-GlassdorUITests-frameworks.sh */,
+				A4F7013B1A25D1C991D5C50177591199 /* Pods-GlassdorUITests-resources.sh */,
+				1C7516E4FDC295746915A18F0CD90BA5 /* Pods-GlassdorUITests-umbrella.h */,
+				5EA05A66406417B53DB5CA3962AEE068 /* Pods-GlassdorUITests.debug.xcconfig */,
+				DD3A518672323995A8A80E0D0F1B5E22 /* Pods-GlassdorUITests.release.xcconfig */,
+			);
+			name = "Pods-GlassdorUITests";
+			path = "Target Support Files/Pods-GlassdorUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CD3DD77C158DC0540CB1AAD6FD80938F /* Pods */,
+				7E9745596B86188BA2FDC3D8E1CBA0AF /* Products */,
+				1D169C6CB4A1A4C38637508F9513B32B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E9745596B86188BA2FDC3D8E1CBA0AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D4866B698344C50AB984BAFE1FB5CA1 /* ActionSheetPicker_3_0.framework */,
+				1BD3631238FF559FC58A776645010DAF /* Pods_Glassdor.framework */,
+				DC2D03B86FFDEE1900FEE1FCD6373584 /* Pods_GlassdorTests.framework */,
+				4F26159BE437AD7D0C56BD9F7E699C89 /* Pods_GlassdorUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97E765E8CF6B3409EA5B16CB3D2C584A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4444C78D6B39A89F38F785104058FF93 /* ActionSheetPicker-3.0.modulemap */,
+				3A4C1EF40CC3CD86CD762BF96514F9F3 /* ActionSheetPicker-3.0.xcconfig */,
+				CE7BB4584A293865661605294BFF38DB /* ActionSheetPicker-3.0-dummy.m */,
+				593204011BA201B60BC063BFD2A1E76A /* ActionSheetPicker-3.0-prefix.pch */,
+				3F0E672E563F5E19BD623A008CB038DD /* ActionSheetPicker-3.0-umbrella.h */,
+				235A5A33BFF159DED3889BD6E972DD9D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		A81CDF3A7F041C82AE3DB33C2D408E97 /* Pods-Glassdor */ = {
+			isa = PBXGroup;
+			children = (
+				64A39A614B6B2AF7BE12688494CD868C /* Info.plist */,
+				FBBC53F87AD9C6005B8DE224B29721DA /* Pods-Glassdor.modulemap */,
+				09FF44CC62F5147EEB2747601F366CD0 /* Pods-Glassdor-acknowledgements.markdown */,
+				98A02640D19056388E9090C60ADC6550 /* Pods-Glassdor-acknowledgements.plist */,
+				994BBC1337606E6BCE8DCC4A6095CFFA /* Pods-Glassdor-dummy.m */,
+				79FFBF5E12EDCDBB57A96E70D81A61D5 /* Pods-Glassdor-frameworks.sh */,
+				47F487F16F3C1C0AA2C88E0756361369 /* Pods-Glassdor-resources.sh */,
+				90C2F386EA4E733EB44B9D2E8E233CE4 /* Pods-Glassdor-umbrella.h */,
+				8B1D2429C0531258F8D10567EEE7F339 /* Pods-Glassdor.debug.xcconfig */,
+				B20DA52828C8F63DB82CD7ACA9781B05 /* Pods-Glassdor.release.xcconfig */,
+			);
+			name = "Pods-Glassdor";
+			path = "Target Support Files/Pods-Glassdor";
+			sourceTree = "<group>";
+		};
+		BDD14DDCAB646BE861DADCA3EBFD1CA1 /* Pods-GlassdorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEACFC4B52A2DDD48E14B83C03CC7AEE /* Info.plist */,
+				DA69659C43510D5DF46CA04ADD740F20 /* Pods-GlassdorTests.modulemap */,
+				EB5D208C083557A2781FB064FF234C72 /* Pods-GlassdorTests-acknowledgements.markdown */,
+				2EE73C61E813A5ECA40D66DBC504F948 /* Pods-GlassdorTests-acknowledgements.plist */,
+				7841B5873825DEC9BB1DFED5CF3DF30F /* Pods-GlassdorTests-dummy.m */,
+				D34B85057271A8653A44BC66BCC8CAEB /* Pods-GlassdorTests-frameworks.sh */,
+				AEA9E48BBB4FC8AAD154158C7D5E3F3A /* Pods-GlassdorTests-resources.sh */,
+				EA70F606BF7B61479357A457AF061790 /* Pods-GlassdorTests-umbrella.h */,
+				D7C966BCD9AE0D9152AB1139AC3E2A1B /* Pods-GlassdorTests.debug.xcconfig */,
+				04622083107A9196CBC30E0006A4DB1E /* Pods-GlassdorTests.release.xcconfig */,
+			);
+			name = "Pods-GlassdorTests";
+			path = "Target Support Files/Pods-GlassdorTests";
+			sourceTree = "<group>";
+		};
+		CD3DD77C158DC0540CB1AAD6FD80938F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02C66CEC1EDE22E3327E1D6903C99AC9 /* ActionSheetPicker-3.0 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		096D6228E92A3EA3B7389F9CB6DCB5DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CADFBDB7E1E573C0D2D87643F46D53 /* Pods-GlassdorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E89D165351AA52ABC2B3EE09DA9611 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D48A67CA370440549EE60C8F3C76A0 /* Pods-GlassdorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A137C4E2115C8DAC1780342C536945C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D556B63DF11B96568C36FF4D783E4734 /* Pods-Glassdor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7168AF4B49EE1459BCE8AC958F7EC526 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2680FB2A9AAFE79796C23A20390CEF45 /* AbstractActionSheetPicker.h in Headers */,
+				90E3389D33DD00DE304548BE9C52C69F /* ActionSheetCustomPicker.h in Headers */,
+				AE84E0341C26A9B5C8E1501C8E8AAC8F /* ActionSheetCustomPickerDelegate.h in Headers */,
+				9BC276383ED044BB0926AFDFD73F928E /* ActionSheetDatePicker.h in Headers */,
+				1648AB9E52071D70CD79280AB21C94D1 /* ActionSheetDistancePicker.h in Headers */,
+				82DB07E1965CC9FFA0340EDA2C5A05A0 /* ActionSheetLocalePicker.h in Headers */,
+				6C16BD3BCB1B65194E7CEA5CF15AD446 /* ActionSheetMultipleStringPicker.h in Headers */,
+				83678861FC71A2BE986560E60D265F1C /* ActionSheetPicker-3.0-umbrella.h in Headers */,
+				9B2B8491E6B1B8EA1C9ACD37341C726B /* ActionSheetPicker.h in Headers */,
+				BDBFA441010D34FB51DC32F28314AD8D /* ActionSheetStringPicker.h in Headers */,
+				CA068FC25E80824549668A53EC9379EC /* DistancePickerView.h in Headers */,
+				0E3BFC96C6A7CCADAF3DA6C3C80F35EC /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12FF270539D3B1AC8692AF7E04D29368 /* Pods-GlassdorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B55058252DBF01012C21880D5D7481E /* Build configuration list for PBXNativeTarget "Pods-GlassdorTests" */;
+			buildPhases = (
+				89076032997FE09E2627819A9FD14221 /* Sources */,
+				A5B030F768AF7123D3791FF0C10B75DC /* Frameworks */,
+				31E89D165351AA52ABC2B3EE09DA9611 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GlassdorTests";
+			productName = "Pods-GlassdorTests";
+			productReference = DC2D03B86FFDEE1900FEE1FCD6373584 /* Pods_GlassdorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		638758D218535A3D50A6181DDFE15695 /* Pods-GlassdorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAAD96407AE1314C4596296AC8C201C5 /* Build configuration list for PBXNativeTarget "Pods-GlassdorUITests" */;
+			buildPhases = (
+				4F5B0FBEA0507E09C795757519FD85B5 /* Sources */,
+				3F8097A629EB94558C55D275789BC1A6 /* Frameworks */,
+				096D6228E92A3EA3B7389F9CB6DCB5DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GlassdorUITests";
+			productName = "Pods-GlassdorUITests";
+			productReference = 4F26159BE437AD7D0C56BD9F7E699C89 /* Pods_GlassdorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E7EF10754EC50B4E161F678DA5C8470 /* Pods-Glassdor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D5336AA4A0D65A03907E7E8DE60C172 /* Build configuration list for PBXNativeTarget "Pods-Glassdor" */;
+			buildPhases = (
+				2D63E855143FCB25BF5BD9CEBA63A94A /* Sources */,
+				24E2A94873BA22EB445F1AA744399E94 /* Frameworks */,
+				4A137C4E2115C8DAC1780342C536945C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77322D970975CFD5863A3BE652378FC /* PBXTargetDependency */,
+			);
+			name = "Pods-Glassdor";
+			productName = "Pods-Glassdor";
+			productReference = 1BD3631238FF559FC58A776645010DAF /* Pods_Glassdor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E127E32D0465A08437982F8B2A3077E /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */;
+			buildPhases = (
+				93F271AD7E26CF5BCFADCFB7A504897D /* Sources */,
+				66076240C2ED6C56B870D99D6432B3F4 /* Frameworks */,
+				7168AF4B49EE1459BCE8AC958F7EC526 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActionSheetPicker-3.0";
+			productName = "ActionSheetPicker-3.0";
+			productReference = 3D4866B698344C50AB984BAFE1FB5CA1 /* ActionSheetPicker_3_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7E9745596B86188BA2FDC3D8E1CBA0AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */,
+				8E7EF10754EC50B4E161F678DA5C8470 /* Pods-Glassdor */,
+				12FF270539D3B1AC8692AF7E04D29368 /* Pods-GlassdorTests */,
+				638758D218535A3D50A6181DDFE15695 /* Pods-GlassdorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D63E855143FCB25BF5BD9CEBA63A94A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F9F197516B6BF2BD02E4CE802DCBBA /* Pods-Glassdor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F5B0FBEA0507E09C795757519FD85B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAE8136E390BD842ACE6EC5F01C8EF1 /* Pods-GlassdorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89076032997FE09E2627819A9FD14221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C811AECF5860AA1EF0C5A6650A13E3D /* Pods-GlassdorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F271AD7E26CF5BCFADCFB7A504897D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B867960879FDDD089A9E41F027E13B9 /* AbstractActionSheetPicker.m in Sources */,
+				E61ED7FAF083B75902728EB20AC4BD92 /* ActionSheetCustomPicker.m in Sources */,
+				1A0130E51AF422F68818416677EE6595 /* ActionSheetDatePicker.m in Sources */,
+				246DD685C951FFF04D55232211F076CD /* ActionSheetDistancePicker.m in Sources */,
+				430E0A46B42F47FF79AE16168D1613E9 /* ActionSheetLocalePicker.m in Sources */,
+				DA732A6C79E7252A25F23A1497ACD0FD /* ActionSheetMultipleStringPicker.m in Sources */,
+				29C34B43AFA7A1D88AB188801C76E08C /* ActionSheetPicker-3.0-dummy.m in Sources */,
+				C6CB72E223B27A0C2B06910EC0FADF67 /* ActionSheetStringPicker.m in Sources */,
+				3C8D2470783809376BA929A9603C21D9 /* DistancePickerView.m in Sources */,
+				E049CE807DA7A012BA222DE64920C3D1 /* SWActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77322D970975CFD5863A3BE652378FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionSheetPicker-3.0";
+			target = 965699190112DDBD9B7864D091660DBC /* ActionSheetPicker-3.0 */;
+			targetProxy = 7FC779AB546DCA92F65F44BBC99DDFCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BB41C699A0CE8CB939BEA5CB08E82C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1D2429C0531258F8D10567EEE7F339 /* Pods-Glassdor.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Glassdor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Glassdor/Pods-Glassdor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Glassdor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0F9F0BE15587D60FB6446E4B36B8BBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3A518672323995A8A80E0D0F1B5E22 /* Pods-GlassdorUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlassdorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlassdorUITests/Pods-GlassdorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GlassdorUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2015EDD010CAF9BFC9D92CD1EA538FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04622083107A9196CBC30E0006A4DB1E /* Pods-GlassdorTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlassdorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlassdorTests/Pods-GlassdorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GlassdorTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6DA35438AB67ECCF18376D349124D0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20DA52828C8F63DB82CD7ACA9781B05 /* Pods-Glassdor.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Glassdor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Glassdor/Pods-Glassdor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Glassdor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7032980DDC1470188FFB3D11F6473E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4C1EF40CC3CD86CD762BF96514F9F3 /* ActionSheetPicker-3.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A520FCB81E0163DFED6F8812238B5B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4C1EF40CC3CD86CD762BF96514F9F3 /* ActionSheetPicker-3.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8FD4CEDA13C9230C46227103351DFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C966BCD9AE0D9152AB1139AC3E2A1B /* Pods-GlassdorTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlassdorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlassdorTests/Pods-GlassdorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GlassdorTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCDC17B1D0D5E9EE4903DB0CA3A18DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA05A66406417B53DB5CA3962AEE068 /* Pods-GlassdorUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlassdorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlassdorUITests/Pods-GlassdorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GlassdorUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D5336AA4A0D65A03907E7E8DE60C172 /* Build configuration list for PBXNativeTarget "Pods-Glassdor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB41C699A0CE8CB939BEA5CB08E82C2 /* Debug */,
+				6DA35438AB67ECCF18376D349124D0C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B55058252DBF01012C21880D5D7481E /* Build configuration list for PBXNativeTarget "Pods-GlassdorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FD4CEDA13C9230C46227103351DFA7 /* Debug */,
+				2015EDD010CAF9BFC9D92CD1EA538FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E127E32D0465A08437982F8B2A3077E /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A520FCB81E0163DFED6F8812238B5B4A /* Debug */,
+				7032980DDC1470188FFB3D11F6473E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAAD96407AE1314C4596296AC8C201C5 /* Build configuration list for PBXNativeTarget "Pods-GlassdorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDC17B1D0D5E9EE4903DB0CA3A18DAF /* Debug */,
+				0F9F0BE15587D60FB6446E4B36B8BBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

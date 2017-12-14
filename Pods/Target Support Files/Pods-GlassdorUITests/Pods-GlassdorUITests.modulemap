@@ -1,0 +1,6 @@
+framework module Pods_GlassdorUITests {
+  umbrella header "Pods-GlassdorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.navigationController?.navigationBar.backgroundColor = UIColor(red:0.33, green:0.64, blue:0.25, alpha:1.0)
     }
 
     override func didReceiveMemoryWarning() {

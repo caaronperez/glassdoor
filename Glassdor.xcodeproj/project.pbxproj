@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		295EBD546D9DBD5A660925E0 /* Pods_Glassdor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EBC9B0573B4584876D0E8B /* Pods_Glassdor.framework */; };
+		BB2268981FE2025D005A0B94 /* CityStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2268971FE2025D005A0B94 /* CityStats.swift */; };
+		BB22689A1FE20597005A0B94 /* JobStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2268991FE20597005A0B94 /* JobStats.swift */; };
+		BB22689C1FE205A4005A0B94 /* EmployerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB22689B1FE205A4005A0B94 /* EmployerStats.swift */; };
 		BB5536851FBCB87400CC196D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536841FBCB87400CC196D /* AppDelegate.swift */; };
 		BB5536871FBCB87400CC196D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536861FBCB87400CC196D /* ViewController.swift */; };
 		BB55368A1FBCB87400CC196D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5536881FBCB87400CC196D /* Main.storyboard */; };
@@ -16,6 +20,8 @@
 		BB55369D1FBCB87400CC196D /* GlassdorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB55369C1FBCB87400CC196D /* GlassdorTests.swift */; };
 		BB5536A81FBCB87400CC196D /* GlassdorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536A71FBCB87400CC196D /* GlassdorUITests.swift */; };
 		BB5536B61FBCCC0D00CC196D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536B51FBCCC0D00CC196D /* Helper.swift */; };
+		E503916CDC48DF4A23D8C64E /* Pods_GlassdorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295B614DCC248F5CF77306E8 /* Pods_GlassdorTests.framework */; };
+		FC4AF0B7FD82D13FF715D8A7 /* Pods_GlassdorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C6EC847967F74A48B08670 /* Pods_GlassdorUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		096649658484041E8BA46671 /* Pods-Glassdor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glassdor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Glassdor/Pods-Glassdor.release.xcconfig"; sourceTree = "<group>"; };
+		295B614DCC248F5CF77306E8 /* Pods_GlassdorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlassdorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD100FD820CD57B43205426 /* Pods-GlassdorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdorTests/Pods-GlassdorTests.release.xcconfig"; sourceTree = "<group>"; };
+		45EBC9B0573B4584876D0E8B /* Pods_Glassdor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Glassdor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C348D05A51BC223293B0AE /* Pods-GlassdorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdorTests/Pods-GlassdorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AA140857EFCE2090508D07B /* Pods-Glassdor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glassdor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Glassdor/Pods-Glassdor.debug.xcconfig"; sourceTree = "<group>"; };
+		8BD29853B193736C356EFD02 /* Pods-GlassdorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdorUITests/Pods-GlassdorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A7C6EC847967F74A48B08670 /* Pods_GlassdorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlassdorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2268971FE2025D005A0B94 /* CityStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityStats.swift; sourceTree = "<group>"; };
+		BB2268991FE20597005A0B94 /* JobStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobStats.swift; sourceTree = "<group>"; };
+		BB22689B1FE205A4005A0B94 /* EmployerStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerStats.swift; sourceTree = "<group>"; };
 		BB5536811FBCB87400CC196D /* Glassdor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glassdor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5536841FBCB87400CC196D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB5536861FBCB87400CC196D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +68,7 @@
 		BB5536A71FBCB87400CC196D /* GlassdorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassdorUITests.swift; sourceTree = "<group>"; };
 		BB5536A91FBCB87400CC196D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB5536B51FBCCC0D00CC196D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E3D20A56216227FAB72B9997 /* Pods-GlassdorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlassdorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlassdorUITests/Pods-GlassdorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295EBD546D9DBD5A660925E0 /* Pods_Glassdor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E503916CDC48DF4A23D8C64E /* Pods_GlassdorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4AF0B7FD82D13FF715D8A7 /* Pods_GlassdorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06765A01BCF5057B4C15C213 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AA140857EFCE2090508D07B /* Pods-Glassdor.debug.xcconfig */,
+				096649658484041E8BA46671 /* Pods-Glassdor.release.xcconfig */,
+				52C348D05A51BC223293B0AE /* Pods-GlassdorTests.debug.xcconfig */,
+				2BD100FD820CD57B43205426 /* Pods-GlassdorTests.release.xcconfig */,
+				E3D20A56216227FAB72B9997 /* Pods-GlassdorUITests.debug.xcconfig */,
+				8BD29853B193736C356EFD02 /* Pods-GlassdorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BB5536781FBCB87400CC196D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				BB55369B1FBCB87400CC196D /* GlassdorTests */,
 				BB5536A61FBCB87400CC196D /* GlassdorUITests */,
 				BB5536821FBCB87400CC196D /* Products */,
+				06765A01BCF5057B4C15C213 /* Pods */,
+				E60DC14641052C843172DEC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +171,9 @@
 		BB5536B71FBCD08500CC196D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BB2268971FE2025D005A0B94 /* CityStats.swift */,
+				BB2268991FE20597005A0B94 /* JobStats.swift */,
+				BB22689B1FE205A4005A0B94 /* EmployerStats.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,6 +202,16 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		E60DC14641052C843172DEC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45EBC9B0573B4584876D0E8B /* Pods_Glassdor.framework */,
+				295B614DCC248F5CF77306E8 /* Pods_GlassdorTests.framework */,
+				A7C6EC847967F74A48B08670 /* Pods_GlassdorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB5536AC1FBCB87400CC196D /* Build configuration list for PBXNativeTarget "Glassdor" */;
 			buildPhases = (
+				A5640406BC993C203FD40321 /* [CP] Check Pods Manifest.lock */,
 				BB55367D1FBCB87400CC196D /* Sources */,
 				BB55367E1FBCB87400CC196D /* Frameworks */,
 				BB55367F1FBCB87400CC196D /* Resources */,
+				5C7B497D8171953E1012EDA6 /* [CP] Embed Pods Frameworks */,
+				26F20117BEBCB3E01B98B0C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB5536AF1FBCB87400CC196D /* Build configuration list for PBXNativeTarget "GlassdorTests" */;
 			buildPhases = (
+				A7000AAC7A67C549BDD9880B /* [CP] Check Pods Manifest.lock */,
 				BB5536941FBCB87400CC196D /* Sources */,
 				BB5536951FBCB87400CC196D /* Frameworks */,
 				BB5536961FBCB87400CC196D /* Resources */,
+				F451A591036E540D2119DE8A /* [CP] Embed Pods Frameworks */,
+				E2BBE719E33A3473F80A14B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB5536B21FBCB87400CC196D /* Build configuration list for PBXNativeTarget "GlassdorUITests" */;
 			buildPhases = (
+				E615F28BE42A4BB375F91C57 /* [CP] Check Pods Manifest.lock */,
 				BB55369F1FBCB87400CC196D /* Sources */,
 				BB5536A01FBCB87400CC196D /* Frameworks */,
 				BB5536A11FBCB87400CC196D /* Resources */,
+				7A95513FFF6EC690B3CF9512 /* [CP] Embed Pods Frameworks */,
+				31072B637AF3E113EA3871C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,13 +350,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26F20117BEBCB3E01B98B0C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Glassdor/Pods-Glassdor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31072B637AF3E113EA3871C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlassdorUITests/Pods-GlassdorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C7B497D8171953E1012EDA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Glassdor/Pods-Glassdor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Glassdor/Pods-Glassdor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A95513FFF6EC690B3CF9512 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlassdorUITests/Pods-GlassdorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5640406BC993C203FD40321 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Glassdor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7000AAC7A67C549BDD9880B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlassdorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2BBE719E33A3473F80A14B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlassdorTests/Pods-GlassdorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E615F28BE42A4BB375F91C57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlassdorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F451A591036E540D2119DE8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GlassdorTests/Pods-GlassdorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB55367D1FBCB87400CC196D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BB5536871FBCB87400CC196D /* ViewController.swift in Sources */,
+				BB2268981FE2025D005A0B94 /* CityStats.swift in Sources */,
 				BB55368D1FBCB87400CC196D /* Glassdor.xcdatamodeld in Sources */,
+				BB22689A1FE20597005A0B94 /* JobStats.swift in Sources */,
+				BB22689C1FE205A4005A0B94 /* EmployerStats.swift in Sources */,
 				BB5536851FBCB87400CC196D /* AppDelegate.swift in Sources */,
 				BB5536B61FBCCC0D00CC196D /* Helper.swift in Sources */,
 			);
@@ -464,11 +675,13 @@
 		};
 		BB5536AD1FBCB87400CC196D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA140857EFCE2090508D07B /* Pods-Glassdor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76456274W3;
 				INFOPLIST_FILE = Glassdor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MCS.Glassdor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,11 +692,13 @@
 		};
 		BB5536AE1FBCB87400CC196D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096649658484041E8BA46671 /* Pods-Glassdor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76456274W3;
 				INFOPLIST_FILE = Glassdor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MCS.Glassdor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -494,6 +709,7 @@
 		};
 		BB5536B01FBCB87400CC196D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C348D05A51BC223293B0AE /* Pods-GlassdorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +727,7 @@
 		};
 		BB5536B11FBCB87400CC196D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD100FD820CD57B43205426 /* Pods-GlassdorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +745,7 @@
 		};
 		BB5536B31FBCB87400CC196D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D20A56216227FAB72B9997 /* Pods-GlassdorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,6 +762,7 @@
 		};
 		BB5536B41FBCB87400CC196D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD29853B193736C356EFD02 /* Pods-GlassdorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
