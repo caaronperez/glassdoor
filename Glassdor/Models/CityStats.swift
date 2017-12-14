@@ -8,23 +8,12 @@
 
 import UIKit
 
-class CityStats: NSObject {
-  var numJobs: Int
+struct CityStats {
+  var numJobs: String
   var name: String
   var stateAbbreviation: String
   var stateName: String
-  var id: Double
-  var latitude: Double
-  var longitude: Double
-  
-  init(numJobs: Int, name: String, stateAbbreviation: String, stateName: String, id: Double, latitude: Double, longitude: Double){
-    self.numJobs = numJobs
-    self.name = name
-    self.stateAbbreviation = stateAbbreviation
-    self.stateName = stateName
-    self.id = id
-    self.latitude = latitude
-    self.longitude = longitude
-  }
-  
+  var id: String
+  var latitude: String
+  var longitude: String
 }
