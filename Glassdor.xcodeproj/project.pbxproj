@@ -16,6 +16,7 @@
 		BB55369D1FBCB87400CC196D /* GlassdorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB55369C1FBCB87400CC196D /* GlassdorTests.swift */; };
 		BB5536A81FBCB87400CC196D /* GlassdorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536A71FBCB87400CC196D /* GlassdorUITests.swift */; };
 		BB5536B61FBCCC0D00CC196D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536B51FBCCC0D00CC196D /* Helper.swift */; };
+		BB960C541FE1EAF100DE6127 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB960C531FE1EAF100DE6127 /* FormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BB5536A71FBCB87400CC196D /* GlassdorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassdorUITests.swift; sourceTree = "<group>"; };
 		BB5536A91FBCB87400CC196D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB5536B51FBCCC0D00CC196D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		BB960C531FE1EAF100DE6127 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				BB5536861FBCB87400CC196D /* ViewController.swift */,
+				BB960C531FE1EAF100DE6127 /* FormViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				BB5536871FBCB87400CC196D /* ViewController.swift in Sources */,
 				BB55368D1FBCB87400CC196D /* Glassdor.xcdatamodeld in Sources */,
 				BB5536851FBCB87400CC196D /* AppDelegate.swift in Sources */,
+				BB960C541FE1EAF100DE6127 /* FormViewController.swift in Sources */,
 				BB5536B61FBCCC0D00CC196D /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
