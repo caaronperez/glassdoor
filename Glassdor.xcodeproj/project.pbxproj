@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB54C5361FE1C90A00BFBA8A /* EmployerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB54C5351FE1C90A00BFBA8A /* EmployerModel.swift */; };
 		BB5536851FBCB87400CC196D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536841FBCB87400CC196D /* AppDelegate.swift */; };
 		BB5536871FBCB87400CC196D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536861FBCB87400CC196D /* ViewController.swift */; };
 		BB55368A1FBCB87400CC196D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5536881FBCB87400CC196D /* Main.storyboard */; };
@@ -17,6 +16,7 @@
 		BB55369D1FBCB87400CC196D /* GlassdorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB55369C1FBCB87400CC196D /* GlassdorTests.swift */; };
 		BB5536A81FBCB87400CC196D /* GlassdorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536A71FBCB87400CC196D /* GlassdorUITests.swift */; };
 		BB5536B61FBCCC0D00CC196D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5536B51FBCCC0D00CC196D /* Helper.swift */; };
+		BB960C541FE1EAF100DE6127 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB960C531FE1EAF100DE6127 /* FormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BB54C5351FE1C90A00BFBA8A /* EmployerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerModel.swift; sourceTree = "<group>"; };
 		BB5536811FBCB87400CC196D /* Glassdor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glassdor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5536841FBCB87400CC196D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB5536861FBCB87400CC196D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		BB5536A71FBCB87400CC196D /* GlassdorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassdorUITests.swift; sourceTree = "<group>"; };
 		BB5536A91FBCB87400CC196D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB5536B51FBCCC0D00CC196D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		BB960C531FE1EAF100DE6127 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,14 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB54C5341FE1C8EB00BFBA8A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				BB54C5351FE1C90A00BFBA8A /* EmployerModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		BB5536781FBCB87400CC196D = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +103,8 @@
 		BB5536831FBCB87400CC196D /* Glassdor */ = {
 			isa = PBXGroup;
 			children = (
-				BB54C5341FE1C8EB00BFBA8A /* Model */,
 				BB5536BA1FBCD0B700CC196D /* Helpers */,
+				BB5536B71FBCD08500CC196D /* Models */,
 				BB5536B81FBCD09400CC196D /* Views */,
 				BB5536B91FBCD09C00CC196D /* Controllers */,
 				BB5536841FBCB87400CC196D /* AppDelegate.swift */,
@@ -142,6 +134,13 @@
 			path = GlassdorUITests;
 			sourceTree = "<group>";
 		};
+		BB5536B71FBCD08500CC196D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BB5536B81FBCD09400CC196D /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				BB5536861FBCB87400CC196D /* ViewController.swift */,
+				BB960C531FE1EAF100DE6127 /* FormViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 				BB5536871FBCB87400CC196D /* ViewController.swift in Sources */,
 				BB55368D1FBCB87400CC196D /* Glassdor.xcdatamodeld in Sources */,
 				BB5536851FBCB87400CC196D /* AppDelegate.swift in Sources */,
-				BB54C5361FE1C90A00BFBA8A /* EmployerModel.swift in Sources */,
+				BB960C541FE1EAF100DE6127 /* FormViewController.swift in Sources */,
 				BB5536B61FBCCC0D00CC196D /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
