@@ -71,6 +71,7 @@ extension ResultsController: NetworkManagerDelegate {
         self.employers.append(result)
       }
     }
+    tableView.reloadData()
   }
 }
 
@@ -86,12 +87,40 @@ extension ResultsController: UITableViewDelegate {
 
 extension ResultsController: UITableViewDataSource {
   public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    
+    switch section {
+      case 1:
+        return jobTitles.count
+      case 2:
+        return cities.count
+      case 0:
+        return employers.count
+      default:
+        return 0
+    }
   }
   
   
   public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    
+    switch indexPath.section {
+      case 1:
+        let cell = tableView.dequeueReusableCell(withIdentifier: "JobCell", for: indexPath) as! JobCellController
+        cell.job = jobTitles[indexPath.row]
+        cell.awakeFromNib()
+        return cell
+      case 0:
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CompanyCell", for: indexPath) as! CompanyCellController
+        cell.company = employers[indexPath.row]
+        cell.awakeFromNib()
+        return cell
+      case 2:
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CityCell", for: indexPath) as! CityCellController
+        cell.city = cities[indexPath.row]
+        cell.awakeFromNib()
+        return cell
+      default:
+        let cell = tableView.dequeueReusableCell(withIdentifier: "DefaultCell", for: indexPath)
+        return cell
+    }
   }
   
   
@@ -101,12 +130,12 @@ extension ResultsController: UITableViewDataSource {
   
   
   public func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String?{
-    swtch(section) {
-      case 0:
-        return "Job Titles"
+    switch section {
       case 1:
-        return "Cities"
+        return "Job Titles"
       case 2:
+        return "Cities"
+      case 0:
         return "Companies"
       default:
         return "Unknow"

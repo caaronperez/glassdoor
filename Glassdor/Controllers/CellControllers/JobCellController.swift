@@ -10,15 +10,24 @@ import UIKit
 
 class JobCellController: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+  @IBOutlet weak var jobTitle: UILabel!
+  @IBOutlet weak var numJobsTitle: UILabel!
+  var job: JobStats!
+  
+  override func awakeFromNib() {
+    super.awakeFromNib()
+    if job != nil {
+      self.jobTitle.text = job.jobTitle
+      
+      if let numJobs = job.numJobs {
+        numJobsTitle.text = "\(numJobs)"
+      }
+      
     }
+  }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+  override func setSelected(_ selected: Bool, animated: Bool) {
+      super.setSelected(selected, animated: animated)
+  }
 
 }

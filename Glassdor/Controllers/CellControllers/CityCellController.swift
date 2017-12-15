@@ -10,15 +10,22 @@ import UIKit
 
 class CityCellController: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+  @IBOutlet weak var nameCity: UILabel!
+  @IBOutlet weak var numJobsCity: UILabel!
+  var city: CityStats!
+ 
+  override func awakeFromNib() {
+    super.awakeFromNib()
+    if city != nil {
+        nameCity.text = city.name
+        if let numJobs = city.numJobs {
+            numJobsCity.text = "\(numJobs)"
+        }
     }
+  }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+  override func setSelected(_ selected: Bool, animated: Bool) {
+      super.setSelected(selected, animated: animated)
+  }
 
 }
