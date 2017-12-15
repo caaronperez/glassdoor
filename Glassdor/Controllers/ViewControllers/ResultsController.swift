@@ -82,7 +82,28 @@ extension ResultsController: NetworkManagerDelegateAlert {
 }
 
 extension ResultsController: UITableViewDelegate {
-  
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: segueIdentifiers.showInfoFromResults.rawValue, sender: nil)
+    }
+}
+
+extension ResultsController {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == segueIdentifiers.showInfoFromResults.rawValue {
+            if let nextViewController = segue.destination as? StatsViewController {
+                if tableView.indexPathForSelectedRow?.section == 0 {
+                    nextViewController.dataRecived = employers[(tableView.indexPathForSelectedRow?.row)!]
+                }
+                else if tableView.indexPathForSelectedRow?.section == 1 {
+                    nextViewController.dataRecived = jobTitles[(tableView.indexPathForSelectedRow?.row)!]
+                }
+                else {
+                    nextViewController.dataRecived = cities[(tableView.indexPathForSelectedRow?.row)!]
+                }
+            }
+        }
+        
+    }
 }
 
 extension ResultsController: UITableViewDataSource {

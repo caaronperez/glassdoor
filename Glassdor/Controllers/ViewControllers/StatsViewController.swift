@@ -20,7 +20,8 @@ class StatsViewController: UIViewController {
     @IBOutlet weak var label6: UILabel!
     @IBOutlet weak var label7: UILabel!
     
-    var dataRecived: Any?
+   
+    var dataRecived: Any!
     
     override func viewDidLoad() {
         super.viewDidLoad()

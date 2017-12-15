@@ -16,6 +16,14 @@ struct APIDetails {
   static let APIParamPath =  "/api/api.htm"
 }
 
+enum segueIdentifiers: String {
+    case showInfoFromResults = "showInfoFromResults"
+    case showResultsFromForm = "showResultsFromForm"
+    case showProgressionFromForm = "showProgressionFromForm"
+}
+
+
+
 struct APIEndPoints {
   static var success = "success"
   static var status = "status"
@@ -61,6 +69,30 @@ enum Sizes : Int {
     case defaultShadowSize = 5
 }
 
+extension UIView {
+    func blackShadow() {
+        let shadowPath = UIBezierPath(rect: bounds)
+        self.layer.masksToBounds = false
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowOffset = CGSize(width: 0.0, height: 4.0)
+        self.layer.shadowOpacity = 0.3
+        self.layer.shadowPath = shadowPath.cgPath
+    }
+    func whiteShadow() {
+        let shadowPath = UIBezierPath(rect: bounds)
+        self.layer.masksToBounds = false
+        self.layer.shadowColor = UIColor.white.cgColor
+        self.layer.shadowOffset = CGSize(width: 0.0, height: 4.0)
+        self.layer.shadowOpacity = 0.3
+        self.layer.shadowPath = shadowPath.cgPath
+    }
+}
+
+extension Int {
+  func isOdd() -> Bool{
+    return (self % 2 == 0) ? true : false
+  }
+}
 extension UIColor {
     static var defaultBackground: UIColor  { return UIColor(red:0.33, green:0.63, blue:0.25, alpha:1.0) }
     static var infoBackground: UIColor  { return UIColor(red:0.80, green:0.86, blue:0.78, alpha:1.0) }
